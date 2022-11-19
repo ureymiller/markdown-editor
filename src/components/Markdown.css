@@ -1,0 +1,48 @@
+code {
+  background: var(--secondary);
+  padding: 5px;
+}
+
+pre code {
+  display: block;
+  padding: 10px;
+  margin: 25px 0;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: var(--quartery);
+}
+
+a:hover {
+  color: #af0000;
+}
+
+table {
+  margin: 25px 0;
+}
+
+th, td {
+  border-right: 1px solid white;
+  padding: 0 15px;
+}
+
+tr > :first-child {
+  border-left: 1px solid white;
+}
+ul li {
+  margin-left: 15px;
+}
+
+ol li {
+  margin-left: 35px;
+}
+
+ol {
+  margin-top: 15px;
+}
+
+img {
+  max-height: 300px;
+  margin: 25px;
+}
